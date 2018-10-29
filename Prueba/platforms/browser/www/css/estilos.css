@@ -1,0 +1,31 @@
+body{
+	background-color: green;
+}
+.redondeadonorelieve {
+   border-radius: 5px;
+   border: 2px solid #39c;
+   width: 50%;
+   height: 30px;
+ }
+.outlinenone {
+   outline: none;
+ }
+ *{
+ 	font-family: Comic Sans MS;
+ }
+ .container{
+ 	background-color: lightblue;
+ 	margin-top: 8%;
+ 	width: 25%;
+ 	border: 3px solid #000000;
+ 	padding: 35px; 
+ }
+ table{
+ 	width: 29%;
+ 	background: lightblue;
+ 	border-color: black; 
+ 	border: 3px solid #000000;
+ }
+ .special{
+ 	width: 100%;
+ }

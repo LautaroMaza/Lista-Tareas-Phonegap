@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <title>Lista de tareas</title>
+    </head>
+    <body>
+ <center>
+<div class="container">
+<label for="tarea" id="tit_modi" style="display: none;">Nombre a modificar</label>
+<input type="text" class="redondeadonorelieve outlinenone" id="modi" style="display: none;"><br><br>
+<button type="button" id="btn_mod" class="" onclick="" style="display: none;">guardar modificacion</button>
+<label for="tarea" id="tit_tarea">Ingrese nombre tarea</label><br><br><br>
+<input type="text" class="redondeadonorelieve outlinenone" id="tarea" style=""><br><br><br>
+<button type="button" id="btn_new" class="" onclick="nueva_tarea()" style="">Nueva tarea</button>
+<button type="button" id="btn_all" class="" onclick="borrar_memoria()" style="">Borrar memoria</button>
+</div><br><br>
+<div id="lista"></div><br>
+</center>
+
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    	<script type="text/javascript" src="js/funciones.js"></script>
+    	    <script type="text/javascript">
+      app.initialize();
+    </script>
+    </body>
+</html>
